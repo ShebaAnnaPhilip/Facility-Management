@@ -1,0 +1,22 @@
+[
+    {
+      "ID": 1,
+      "RegionName": "Northland"
+    },
+    {
+      "ID": 2,
+      "RegionName": "Auckland"
+    },
+     {
+      "ID": 3,
+      "RegionName": "Canterbury"
+    },
+   {
+      "ID": 4,
+      "RegionName": "WestCoast"
+    },
+   {
+      "ID": 5,
+      "RegionName": "Wellington"
+    }
+  ]

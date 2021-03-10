@@ -1,0 +1,64 @@
+.home {
+    display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+}
+.home_banner {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,#000,#4FB3A0);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 10px;
+  }
+  .home_logo{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .home_logoname{
+    font-family: cursive;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+.login_container {
+    width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 50px;
+  align-items: center;
+  margin-top: 80px;
+}
+.login_container>form{
+  display: flex;
+  flex-direction: column;
+}
+.login_container > form > input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 240px;
+    background-color: white;
+  }
+  .login_button {
+    background-color: #45B3A0;
+    border: 1px solid;
+    border-radius: 2px;
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    border-color: #a88734 #4f9c31 #208313;
+    color: #111;
+    font-weight: bold;
+  }
+  .login_errormessage{
+    color: red;
+    font-size: 12px;
+  }

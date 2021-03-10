@@ -1,0 +1,53 @@
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,#000,#4FB3A0);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  .header_logo{
+display: flex;
+flex-direction: row;
+  }
+  .header_logoicon {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin-top: 20px
+  }
+  .header_logoname{
+    font-family: cursive;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .header_option {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+  .header_optionOne {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .header_optionTwo {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .logout_button {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 2px;
+    height: 30px;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+  }

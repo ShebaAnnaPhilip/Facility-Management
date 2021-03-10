@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AddFacility from "./containers/AddFacility";
+import Dashboard from "./containers/Dashboard";
+import Facilities from "./containers/Facilities";
+import Header from "./containers/Header";
+import Home from "./containers/Home";
+import IdleTimer from 'react-idle-timer'
 
 function App() {
+  // const idleTimerRef = useRef(null)
+  const onIdle = () =>{
+   alert('Your Session will expire soon')
+}
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+          <IdleTimer  timeout={3 *60 * 1000} onIdle={onIdle}></IdleTimer>
+        <Switch>
+          <Route path="/dashboard">
+            <Header/>
+            <Dashboard />
+          </Route>
+          <Route path="/facilities">
+            <Header/>
+            <Facilities />
+          </Route>
+          <Route path="/addfacilities">
+            <Header/>
+            <AddFacility />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

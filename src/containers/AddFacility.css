@@ -1,0 +1,49 @@
+.addfacility {
+  height: 500px;
+  width: 100%;
+  margin: 30px;
+}
+.addfacility_details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.addfacility_details_left {
+  width: 48%;
+  padding: 5px;
+}
+.addfacility_details_right {
+  width: 48%;
+  padding: 5px;
+}
+.addfacility_btndiv {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  padding-right: 370px;
+}
+.addfacility_savebtn {
+  border-radius: 10px;
+  padding: 20px;
+  width: 110px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+.addfacility_select {
+  position: relative;
+  font-family: Arial;
+  width: 40%;
+  height: 30px;
+}
+.errorMessage {
+  color: red;
+  font-size: 12px;
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 1,
+    "Sitename": "Selwyn Park",
+    "Email": "selwyn@nofacility.com",
+    "Address": "105 Puriri Park Road",
+    "Country": "New Zealand",
+    "StartMonth": "January",
+    "RegionId": 1
+
+  },
+  {
+    "ID": 2,
+    "Sitename": "Ascot House",
+    "Email": "ascot@nofacility.com",
+    "Address": "185 Vauxhall Road,Auckland, 0624",
+    "Country": "New Zealand",
+    "StartMonth": "March",
+    "RegionId": 2
+   
+  },
+  {
+    "ID": 3,
+    "Sitename": "Glenwood Home",
+    "Email": "glen@nofacility.com",
+    "Address": "45 Glenwood Avenue,Timaru",
+    "Country": "New Zealand",
+    "StartMonth": "October",
+    "RegionId": 3
+
+  },
+  {
+    "ID": 4,
+    "Sitename": "Dixon House",
+    "Email": "dixon@nofacility.com",
+    "Address": "6 Brunner Street,Greymouth",
+    "Country": "New Zealand",
+    "StartMonth": "January",
+    "RegionId": 4
+  },
+  {
+
+    "ID": 5,
+    "Sitename": "ABI Wellington",
+    "Email": "abi@nofacility.com",
+    "Address": "4 Chapel Drive, Kenepuru, Porirua",
+    "Country": "New Zealand",
+    "StartMonth": "April",
+    "RegionId": 5
+
+  }
+]
